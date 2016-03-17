@@ -46,7 +46,6 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
     RecyclerView.LayoutManager mLayoutManager; // Declaring Layout Manager as a
     // linear layout manager
     DrawerLayout Drawer; // Declaring DrawerLayout
-
     ActionBarDrawerToggle mDrawerToggle; // Declaring Action Bar Drawer Toggle
 
     FragmentTransaction ft;
