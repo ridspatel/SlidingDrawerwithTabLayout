@@ -101,6 +101,7 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
         HomeFragment feedbackFragment = HomeFragment.newInstance();
         tx.replace(R.id.main, feedbackFragment).commit();
 
+        /*call setTab() function*/
         setTab();
 
     }
